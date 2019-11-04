@@ -1,0 +1,29 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="utf 8">
+    <title>Demo MoneyMask</title>     
+</head>  
+<body ng-app="app">
+    <div ng-controller="HelloWorldCtrl">
+        <h1>Demo MoneyMask</h1>
+        <h2>Value: {{vm.entity}}</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="control-label">Test Label</label>
+                    <input id="moneyCtrl" name="moneyCtrl" type="text"
+                    money-mask money-mask-prepend="$" class="form-control" 
+                    ng-model="vm.entity.money">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+    <script src="app.module.js"></script>
+    <script src="utils.module.js"></script>
+    <script src="constants.js"></script>
+    <script src="moneyMask.directive.js"></script>
+    <script src="index.controller.js"></script>
+</body>  
+</html>
