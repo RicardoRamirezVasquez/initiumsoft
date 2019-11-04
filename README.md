@@ -1,2 +1,2 @@
 # initiumsoft
-FrontEndPackages
+moneyMask
