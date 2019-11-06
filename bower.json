@@ -1,0 +1,20 @@
+{
+  "name": "moneymask",
+  "description": "moneymask",
+  "main": "index.html",
+  "authors": [
+    "Ricardo Ramirez <rramirez@smartersolutions.com.ve>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "money"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
