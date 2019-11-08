@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('app', ['app.utils']).controller('HelloWorldCtrl', HelloWorldCtrl);
+    angular.module('money').controller('HelloWorldCtrl', HelloWorldCtrl);
     HelloWorldCtrl.$inject = ['$scope'];
     function HelloWorldCtrl ($scope) {  
         var vm = this;

@@ -4,10 +4,10 @@
     <meta charset="utf 8">
     <title>Demo MoneyMask</title>     
 </head>  
-<body ng-app="app">
-    <div ng-controller="HelloWorldCtrl">
+<body ng-app="money">
+    <div ng-controller="HelloWorldCtrl as vm">
         <h1>Demo MoneyMask</h1>
-        <h2>Value: {{vm.entity}}</h2>
+        <h2>Value: {{vm.entity.money}}</h2>
         <div class="row">
             <div class="col-sm-6">
                 <div class="form-group">
@@ -20,8 +20,7 @@
         </div>
     </div>
     <script src="https://code.angularjs.org/1.6.9/angular.js"></script>
-    <script src="app.module.js"></script>
-    <script src="utils.module.js"></script>
+    <script src="money.module.js"></script>
     <script src="constants.js"></script>
     <script src="moneyMask.directive.js"></script>
     <script src="index.controller.js"></script>

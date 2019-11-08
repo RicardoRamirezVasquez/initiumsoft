@@ -2,7 +2,7 @@
  (function () {
     'use strict';
     angular
-    .module('app.utils')
+    .module('money')
     .constant('APP_LOCAL', {
         'local': 'EN-US'
     });

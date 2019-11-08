@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     angular
-      .module('app.utils') 
+      .module('money') 
       .directive('moneyMask', moneyMask);
       moneyMask.$inject = ['$filter', '$window','APP_LOCAL'];
       function moneyMask($filter, $window,APP_LOCAL) {
